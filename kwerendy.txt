@@ -1,0 +1,3 @@
+1. SELECT `samochody`.`marka`, `samochody`.`model` FROM `samochody` WHERE `samochody`.`kolor` = 'czerwony';
+2. UPDATE `samochody` SET `stan` = 'dobry' WHERE `samochody`.`rocznik` = 2003;
+3. CREATE USER 'Andrzej'@'%' IDENTIFIED VIA mysql_native_password USING '***';GRANT USAGE ON *.* TO 'Andrzej'@'%' REQUIRE NONE WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
